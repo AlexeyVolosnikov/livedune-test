@@ -1,0 +1,21 @@
+@import "./../../global";
+
+.resource {
+  padding: 12px 14px 12px 14px;
+  border: 1px solid #dbdbdb;
+  border-radius: 7px;
+  width:210px;
+  transition: 0.25s;
+  margin:10px;
+}
+.resource:hover {
+  background: #eeeeee;
+}
+.enter-via-text {
+  padding-left: 10px;
+  font-weight: 600;
+}
+.via{
+  flex-wrap: wrap;
+  justify-content: center;
+}

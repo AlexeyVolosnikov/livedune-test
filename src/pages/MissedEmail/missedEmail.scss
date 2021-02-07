@@ -1,0 +1,21 @@
+@import "./../../global";
+
+.grey-text {
+  color: #c9c9c9;
+  width:674px;
+  padding: 0 10px 0 10px;
+}
+.medium-padding-top-bot{
+  padding: 40px 0 40px 0;
+}
+.big-padding-top {
+  padding-top: 70px;
+}
+.blue {
+  color: #4E74F5;
+}
+@media screen and (max-width:570px) {
+  .big-title {
+    font-size: 30px;
+  }
+}

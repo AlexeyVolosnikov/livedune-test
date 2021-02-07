@@ -1,0 +1,11 @@
+@import "./../../global";
+
+.blue-link {
+  color: $blue-btn-background;
+  font-weight: 500;
+  text-decoration-line: none;
+  transition: 0.25s;
+}
+.blue-link:hover {
+  color: lighten($blue-btn-background, 10%);
+}

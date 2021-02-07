@@ -1,0 +1,11 @@
+@import "./../../global";
+
+.grey {
+  color: #c8c8c8;
+  text-decoration-line: none;
+  transition: 0.20s;
+}
+.grey:hover {
+  cursor: pointer;
+  color:grey;
+}

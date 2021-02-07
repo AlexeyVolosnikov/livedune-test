@@ -1,0 +1,21 @@
+@import "./../../global";
+
+.blue-link-btn {
+  @extend .blue-button;
+  padding: 5px 0 5px 0;
+  transition: 0.25s;
+  text-decoration-line: none;
+  border:0;
+  outline:none;
+}
+.blue-link-btn:hover {
+  cursor: pointer;
+  background: lighten($blue-btn-background, 10%);
+}
+
+@media screen and (max-width: 1024px) {
+  .blue-link-btn {
+    width:113px;
+    height:40px;
+  }
+}
