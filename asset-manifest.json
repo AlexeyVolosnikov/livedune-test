@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/livedune-test/static/css/main.38c57f32.chunk.css",
+    "main.js": "/livedune-test/static/js/main.796bedc2.chunk.js",
+    "main.js.map": "/livedune-test/static/js/main.796bedc2.chunk.js.map",
+    "runtime-main.js": "/livedune-test/static/js/runtime-main.3b88d740.js",
+    "runtime-main.js.map": "/livedune-test/static/js/runtime-main.3b88d740.js.map",
+    "static/js/2.5b24fd1e.chunk.js": "/livedune-test/static/js/2.5b24fd1e.chunk.js",
+    "static/js/2.5b24fd1e.chunk.js.map": "/livedune-test/static/js/2.5b24fd1e.chunk.js.map",
+    "index.html": "/livedune-test/index.html",
+    "static/css/main.38c57f32.chunk.css.map": "/livedune-test/static/css/main.38c57f32.chunk.css.map",
+    "static/js/2.5b24fd1e.chunk.js.LICENSE.txt": "/livedune-test/static/js/2.5b24fd1e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3b88d740.js",
+    "static/js/2.5b24fd1e.chunk.js",
+    "static/css/main.38c57f32.chunk.css",
+    "static/js/main.796bedc2.chunk.js"
+  ]
+}
