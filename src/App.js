@@ -18,7 +18,7 @@ function App() {
       <Provider store={store}>
         <Router>
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/livedune-test/">
               <Auth store={store} />
             </Route>
             <Route path="/reg">
