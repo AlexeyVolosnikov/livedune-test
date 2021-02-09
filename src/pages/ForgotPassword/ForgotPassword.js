@@ -28,8 +28,8 @@ export const ForgotPassword = props => {
                     <path d="M89.7879 87.8788C89.7879 94.5727 84.3606 100 77.6667 100H23.1212C16.4273 100 11 94.5727 11 87.8788V51.5151C11 44.8212 16.4273 39.3939 23.1212 39.3939H77.6667C84.3606 39.3939 89.7879 44.8212 89.7879 51.5151V87.8788Z" fill="#F2F2F7"/>
                 </svg>
             </div>
-            <div className="center">
-                <label className="medium-title">
+            <div className="center text-center">
+                <label className="forgot-medium-title">
                     Восстановить пароль
                 </label>
             </div>

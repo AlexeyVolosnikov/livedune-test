@@ -1,8 +1,36 @@
 @import "./../../global";
 
 .msg-padding {
-  padding-top: 50px;
+  padding-top: 110px;
+  padding-bottom: 40px;
 }
 .btn-padding {
   margin-top: 20px;
+}
+.email-medium-title {
+  font-size: 36px;
+  margin-top:6px;
+}
+.email-sent-info {
+  margin-top:-10px;
+  margin-bottom:65px;
+  font-weight: bold;
+}
+.email-sent-blue-link-btn {
+  text-decoration-line: none;
+  display:flex;
+  justify-content: center;
+  padding-top: 22px;
+  height: 42px;
+  border-radius: 45px;
+  color:white;
+  width:355px;
+  font-weight:bold;
+  margin-top:-19px;
+  background:$blue-btn-background;
+  transition: 0.25s;
+}
+.email-sent-blue-link-btn:hover {
+  cursor: pointer;
+  background:lighten($blue-btn-background, 10%);
 }

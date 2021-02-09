@@ -9,7 +9,7 @@ export class BlueLinkButton extends Component {
             <div>
                 <Link
                     style={this.props.style}
-                    className={"blue-link-btn "+this.props.className}
+                    className={this.props.className}
                     to={this.props.to}
                 >{this.props.text}</Link>
             </div>

@@ -14,13 +14,13 @@ export class ConfirmEmail extends Component {
                 <Header page={'confirm'} />
                 <div className="padding-wrapper">
                     <div className="center big-title">
-                        <label className={"text-center"}>Подтвердите ваш e-mail</label>
+                        <label className={"text-center confirm-title"}>Подтвердите <div>ваш e-mail</div></label>
                     </div>
                     <div className={"centergrey center"}>
                         <label className={"center-grey-text text-center"}>{name}, на ваш E-mail отправлено письмо со ссылкой для подтверждения. Перейдите по ней, чтобы активировать вашу учетную запись и получить 7 дней бесплатного доступа.</label>
                     </div>
                     <div className="center ">
-                        <BlueLinkButton className={"btn-width"} to={"/"} text={"Перейти к почте"} />
+                        <BlueLinkButton className={"go-to-email-btn"} to={"/"} text={"Перейти к почте"} />
                     </div>
                     <div className="center did-not-get">
                         <BlueLink to={"/missed"} text={'Мне не пришло письмо'} />

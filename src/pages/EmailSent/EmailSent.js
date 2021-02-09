@@ -4,11 +4,6 @@ import {BlueLinkButton} from "../../components/BlueLinkButton/BlueLinkButton";
 import {GreyText} from "../../components/GreyText/GreyText";
 import "./emailSent.scss";
 
-const style = {
-    blueLinkButton : {
-        width : "200px"
-    }
-}
 
 export class EmailSent extends Component {
     componentDidMount() {
@@ -29,15 +24,17 @@ export class EmailSent extends Component {
                     </svg>
                 </div>
                 <div className="center">
-                    <div className="medium-title text-center">
+                    <div className="email-medium-title text-center">
                         Письмо отправлено
                     </div>
                 </div>
                 <div className="center">
-                    <GreyText text={'На указанный вами e-mail было отправлено письмо для смены пароля\n'} />
+                    <div className="email-sent-info">
+                        <GreyText text={'На указанный вами e-mail было отправлено письмо для смены пароля\n'} />
+                    </div>
                 </div>
                 <div className="center btn-padding">
-                    <BlueLinkButton style={style.blueLinkButton} text={"Вернуться на главную"} to={"/"} />
+                    <BlueLinkButton className={"email-sent-blue-link-btn"} text={"Вернуться на главную"} to={"/"} />
                 </div>
             </div>
         );

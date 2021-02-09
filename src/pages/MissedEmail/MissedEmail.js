@@ -23,13 +23,13 @@ export class MissedEmail extends Component {
             <div>
                 <Header page={"missed"} />
                 <div className="center big-padding-top">
-                    <label className={"big-title text-center"}>
+                    <label className={"missed-big-title text-center"}>
                         Мне не пришло письмо
                     </label>
                 </div>
-                <div className="center medium-padding-top-bot">
-                    <label className={"text-center grey-text"}>
-                        Письмо может прийти с задержкой в 5-10 минут. Также проверьте разные папки почтового ящика (актуально для gmail.com) и папку "Спам".Если письмо все же не пришло, повторите попытку или напишите об этом в тех.поддержку <label className={"blue"}><b>support@livedune.ru</b></label> и мы активируем ваш аккаунт.
+                <div className="center missed-medium-grey-text">
+                    <label className={"text-center missed-grey-text"}>
+                        <div>Письмо может прийти с задержкой в 5-10 минут.</div> Также проверьте разные папки почтового ящика (актуально для gmail.com) и папку "Спам".Если письмо все же не пришло, повторите попытку или напишите об этом в тех.поддержку <label className={"blue"}><b>support@livedune.ru</b></label> и мы активируем ваш аккаунт.
                     </label>
                 </div>
                 <div className="center">

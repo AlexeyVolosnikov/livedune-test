@@ -7,24 +7,13 @@ import {notEmpty, mailValidation} from "../../validators/validators";
 import "./authForm.scss"
 import '../../components/BlueLinkButton/blueLinkButton.scss';
 
-const styles = {
-    blueLink : {
-        display:"flex",
-        justifyContent:"center",
-        margin:"25px 0 25px 0"
-    },
-    blueLinkButton : {
-        margin:"25px 0 25px 0",
-        width: "100%"
-    }
-}
 
 const AuthForm = props => {
     const { error, handleSubmit } = props
     return (
         <form onSubmit={handleSubmit(props.onSubmit)}>
             <div className={'center'}>
-                <div className={'column w100'}>
+                <div className={'column field-width'}>
                     <Field
                         label={"Email"}
                         name={"login"}
@@ -41,11 +30,11 @@ const AuthForm = props => {
                     />
                     {error && <label className="error">{error}</label>}
                     <button>
-                        <div style={styles.blueLinkButton} className={'blue-link-btn'} >
+                        <div className={'auth-blue-link-btn'} >
                             Войти в аккаунт
                         </div>
                     </button>
-                    <BlueLink style={styles.blueLink} to={"/forgot"} text={'Забыли пароль?'} />
+                    <BlueLink className={'auth-blue-link-forgot'} to={"/forgot"} text={'Забыли пароль?'} />
                 </div>
             </div>
         </form>

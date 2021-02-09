@@ -1,21 +1,37 @@
 @import "./../../global";
 
 .resource {
-  padding: 12px 14px 12px 14px;
+  padding-left:16px;
   border: 1px solid #dbdbdb;
   border-radius: 7px;
-  width:210px;
+  width:223px;
   transition: 0.25s;
-  margin:10px;
+  height:54px;
 }
 .resource:hover {
   background: #eeeeee;
 }
 .enter-via-text {
   padding-left: 10px;
-  font-weight: 600;
 }
-.via{
+.second {
+  margin-left:16px;
+}
+.via {
+  display:flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top:32px;
+}
+@media screen and (max-width:570px) {
+  .second {
+    margin-left:0;
+    margin-top:9px;
+  }
+  .resource {
+    width:87%;
+  }
+  .enter-via-text {
+    padding-left:54px;
+  }
 }

@@ -10,7 +10,6 @@ import {notEmpty, politeMailValidation} from "../../validators/validators";
 
 import "./regForm.scss"
 import '../../components/BlueLinkButton/blueLinkButton.scss';
-import handleSubmit from "redux-form/lib/handleSubmit";
 
 const styles = {
     blueLink : {
@@ -18,14 +17,10 @@ const styles = {
         justifyContent:"center",
         margin:"25px 0 25px 0"
     },
-    blueLinkButton : {
-        margin:"25px 0 25px 0",
-        width: "100%"
-    },
     promo : {
         display:"flex",
         justifyContent: "center",
-        margin:"8px 0 10px 0"
+        margin:"18px 0 10px 0"
     }
 }
 
@@ -58,15 +53,15 @@ const RegForm = props => {
                     />
                     <Promocode style={styles.promo}  />
                     <button>
-                        <div style={styles.blueLinkButton} className={'blue-link-btn'} >
+                        <div style={styles.blueLinkButton} className={'reg-blue-link-btn'} >
                             Создать аккаунт
                         </div>
                     </button>
-                    <div className="space-between center flex-wrap">
+                    <div className="space-between center flex-wrap reg-agreement">
                         <div className={"center-column space-right"}>
                             <b>Создавая аккаунт, я согласен с</b>
                         </div>
-                        <BlueLink style={styles.blueLink} to={"/reg"} text={'условиями оферты'} />
+                        <BlueLink className={"reg-conditions"} style={styles.blueLink} to={"/reg"} text={'условиями оферты'} />
                     </div>
                 </div>
             </div>

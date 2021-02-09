@@ -15,19 +15,18 @@ export class Header extends Component {
             link = "/reg"
         }
         else if (this.props.page === "reg") {
-            greyLinkText = "У вас уже есть аккаунт?"
+            greyLinkText = "Уже есть аккаунт?"
             blueLinkText = "Войти"
             link = "/"
         }
         return (
-            <div className={"space-between header"}>
-                <div className={"center-column"}>
-                    <Logotype to={"/"} />
-                </div>
+            // space-between header
+            <div className={"space-between"}>
+                <Logotype to={"/"} />
                 {
                     (this.props.page === "confirm" || this.props.page === "missed")
                     &&
-                    <div className={"row"}>
+                    <div className={"header-exit-grey"}>
                         <GreyLink text={"Выйти"} to={"/"} />
                     </div>
                 }
@@ -38,7 +37,7 @@ export class Header extends Component {
                     &&
                     <div className={"row"}>
                         <GreyText disableWidth={570} text={greyLinkText} />
-                        <BlueLinkButton to={link} text={blueLinkText} mobileWidth={"113px"} />
+                        <BlueLinkButton className={"header-blue-link-btn blue-link-btn"} to={link} text={blueLinkText} mobileWidth={"113px"} />
                     </div>
                 }
             </div>

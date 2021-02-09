@@ -13,7 +13,7 @@ export class EnterVia extends Component {
                         <label className={"enter-via-text"}>Войти через Facebook</label>
                     </div>
                 </div>
-                <div className={"center-column resource"}>
+                <div className={"center-column resource second"}>
                     <div className="row">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clipPath="url(#clip0)">

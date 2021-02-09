@@ -1,11 +1,10 @@
 .logo {
-  color: #F90043;
-  font-weight: bold;
-  text-decoration-line: none;
-  font-size:30px;
+  margin-left:54px;
+  margin-top: 39px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 570px) {
   .logo {
-    font-size:24px;
+    margin-left:16px;
+    margin-top:22px;
   }
 }

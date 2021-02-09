@@ -2,11 +2,27 @@
 
 .grey-text {
   color: #c8c8c8;
-  margin:20px 0 20px 0;
 }
 .text-padding {
-  padding: 20px 0 20px 0;
+  padding: 16px 0 0 0;
 }
-.text-padding-or {
-  padding: 10px 0 10px 0;
+.reg-big-title {
+  @extend .big-title;
+}
+.reg-text-padding-or {
+  margin: 8px 0 10px 0;
+}
+.reg-wrapper {
+  padding-top:18px;
+}
+.reg-and-get {
+  margin:12px 0 5px 0;
+}
+@media screen and (max-width: 570px) {
+  .reg-big-title {
+    margin-top:28px;
+  }
+  .reg-and-get {
+    margin-top:9px;
+  }
 }

@@ -1,7 +1,31 @@
-@import "../AuthForm/authForm";
+@import "./../../global";
+@import "../../components/BlueLinkButton/blueLinkButton";
 
-@media screen and (max-width: 393px) {
+.reg-blue-link-btn {
+  @extend .blue-link-btn;
+  width:500px;
+  height:64px;
+  margin-top:40px;
+}
+.reg-agreement {
+  margin-top: 19px;
+  font-size: 15px;
+  text-align: center;
+}
+@media screen and (max-width: 570px) {
   .blue-link {
     margin-top:10px;
   }
+  .reg-blue-link-btn{
+    width:95%;
+    height:54px;
+  }
+  .reg-conditions {
+    margin-top: -17px;
+  }
+  .reg-agreement {
+    display: flex;
+    flex-direction:column;
+  }
 }
+

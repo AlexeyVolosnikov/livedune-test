@@ -1,12 +1,28 @@
 @import "./../../global";
 
-.blue-link-btn {
-  width:170px;
-  margin-top: 20px;
+.missed-field{
+  margin-top:24px;
+  width:420px;
 }
 .form-width {
   width:90%;
 }
-.btn-width {
-  width:170px;
+.missed-blue-link-btn {
+  @extend .blue-link-btn;
+  display:flex;
+  justify-content: center;
+  padding-top:20px;
+  height:40px;
+  background: $blue-btn-background;
+  transition: 0.25s;
+  width:420px;
+  color:white;
+  border-radius: 40px;
+}
+.missed-cancel {
+  margin-top:23px;
+}
+.missed-blue-link-btn:hover {
+  cursor: pointer;
+  background:lighten($blue-btn-background, 10%);
 }

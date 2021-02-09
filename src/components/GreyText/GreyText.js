@@ -17,8 +17,9 @@ export class GreyText extends Component {
         toggle()
     }
     render() {
+        let _class = (this.props.className === undefined) ? "" : this.props.className;
         return (
-            <div ref={this.wrapperRef} className={"no-account-wrapper center-column text-center"}>
+            <div ref={this.wrapperRef} className={"center-column text-center " + _class}>
                 <label className={"no-account"}>{this.props.text}</label>
             </div>
         )

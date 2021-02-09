@@ -2,11 +2,27 @@
 
 
 .text-padding {
-  padding: 20px 0 20px 0;
+  padding: 16px 0 0 0;
 }
 .text-padding-or {
   padding: 10px 0 10px 0;
 }
 .grey-greets {
   color: #c8c8c8;
+  padding: 16px 0 0 0;
+}
+.auth-wrapper {
+  padding-top: 56px;
+}
+@media screen and (max-width:570px) {
+  .text-padding {
+    padding-top: 0;
+  }
+  .big-title {
+    padding-top: 0;
+    margin-top: -10px;
+  }
+  .grey-greets {
+    padding-top: 5px;
+  }
 }

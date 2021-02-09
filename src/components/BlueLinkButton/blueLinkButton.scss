@@ -2,7 +2,6 @@
 
 .blue-link-btn {
   @extend .blue-button;
-  padding: 5px 0 5px 0;
   transition: 0.25s;
   text-decoration-line: none;
   border:0;
@@ -17,5 +16,11 @@
   .blue-link-btn {
     width:113px;
     height:40px;
+  }
+}
+
+@media screen and (max-width:570px) {
+  .blue-link-btn {
+    font-size:12px;
   }
 }

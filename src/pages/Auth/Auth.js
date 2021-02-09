@@ -6,11 +6,6 @@ import {account} from "../../validators/validators";
 import { SubmissionError } from 'redux-form'
 import './auth.scss';
 
-const styles = {
-    auth : {
-        padding: "40px 0 0 0"
-    }
-}
 
 export class Auth extends Component{
     constructor() {
@@ -40,11 +35,11 @@ export class Auth extends Component{
             <div >
                 <Header page={'auth'} />
                 <div className="center">
-                    <div className="column" style={styles.auth}>
+                    <div className="column auth-wrapper">
                         <div className={"big-title center"}>
                             Войти
                         </div>
-                        <div className="center text-padding grey-greets">
+                        <div className="center grey-greets">
                             Добро пожаловать, рады видеть вас снова 👋
                         </div>
                         <EnterVia />
