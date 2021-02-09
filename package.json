@@ -23,7 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages-2 -d build"
+    "deploy": "master -d build"
   },
   "eslintConfig": {
     "extends": [
